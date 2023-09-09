@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p> Arithematic opertions</p>
+    <script type="text/javascript">
+        function add() {
+            var a = parseInt(document.getElementById("t1").value);
+            var b = parseInt(document.getElementById("t2").value);
+            var c = a + b;
+            document.getElementById("t3").value = c;
+
+        }
+        function sub() {
+            var a = parseInt(document.getElementById("t1").value);
+            var b = parseInt(document.getElementById("t2").value);
+            var c = a - b;
+            document.getElementById("t3").value = c;
+
+        }
+        function mul() {
+            var a = parseInt(document.getElementById("t1").value);
+            var b = parseInt(document.getElementById("t2").value);
+            var c = a * b;
+            document.getElementById("t3").value = c;
+
+        }
+        function div() {
+            var a = parseInt(document.getElementById("t1").value);
+            var b = parseInt(document.getElementById("t2").value);
+            var c = a / b;
+            document.getElementById("t3").value = c;
+
+        }
+        function modulus() {
+            var a = parseInt(document.getElementById("t1").value);
+            var b = parseInt(document.getElementById("t2").value);
+            var c = a % b;
+            document.getElementById("t3").value = c;
+
+        }
+
+
+    </script>
+    <label> enter the first number</label>
+    <input type="text" id="t1"><br>
+    <label> enter the second</label>
+    <input type="text" id="t2"><br>
+    <label> result</label>
+    <input type="text" id="t3"><br>
+    <button onclick="add()">add</button>
+    <button onclick="sub()">sub</button>
+    <button onclick="mul()">mul</button>
+    <button onclick="div()">div</button>
+    <button onclick="modulus()">modulus</button>
+
+</body>
+
+</html>
