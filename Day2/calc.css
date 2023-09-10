@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(59, 176, 75);
+}
+
+tr {
+    border: 3px solid rgb(116, 111, 218);
+}
+
+table {
+    display: grid;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+button {
+    width: 80px;
+    padding: 2%;
+}
