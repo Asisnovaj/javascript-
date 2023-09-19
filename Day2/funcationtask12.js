@@ -26,4 +26,4 @@ function eval(n1) {
 }
 
 let n1 = parseInt(prompt("Enter the values"));
-console.log("The student mark is: " + eval(n1));
+console.log("student mark is: " + eval(n1));
