@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>JS DOM paragraph style</title>
+    <script type="text/JavaScript">
+    function js_style() {
+        document.getElementById("text").style.color="green";
+        document.getElementById("text").style.fontStyle="italic";
+        document.getElementById("text").style.fontWeight="bold";
+        document.getElementById("text").style.fontSize="40px";
+
+    }
+</script>
+</head>
+
+<body>
+    <p id='text'>JavaScript engines were originally used only in web browsers, but are now core components of some
+        servers and a variety of applications. The most popular runtime system for this usage is Node.js.
+
+        Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages
+        are distinct and differ greatly in design.
+
+        History</p>
+    <div>
+        <button id="jsstyle" onclick="js_style()">Style</button>
+    </div>
+</body>
+
+</html>
